@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dsl">
+      <UniqueIdentifier>{24d89e56-21ae-41e8-ad57-25aaba30fe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custom_logic">
+      <UniqueIdentifier>{5c7c1db0-49e5-43dc-af6e-a9cfd168d0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pugixml">
+      <UniqueIdentifier>{21dbe623-478f-41f5-91af-732bbef00e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core_node">
+      <UniqueIdentifier>{5b16d578-c15d-42cf-9b73-b88593147ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="behaviors">
+      <UniqueIdentifier>{9d621312-3b23-4e67-8198-94569fe3788e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="conditions">
+      <UniqueIdentifier>{b3e80c50-015e-426d-9d54-c9b09b5c3819}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tokenizer.cpp">
+      <Filter>dsl</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>dsl</Filter>
+    </ClCompile>
+    <ClCompile Include="expression_compiler.cpp">
+      <Filter>dsl</Filter>
+    </ClCompile>
+    <ClCompile Include="expression.cpp">
+      <Filter>dsl</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_factory.cpp">
+      <Filter>custom_logic</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>custom_logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="variable.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="text_buffer.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="operation.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="expression_compiler.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="expression.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_interfaces.h">
+      <Filter>custom_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="dsl.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_factory.h">
+      <Filter>custom_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="variables_lib.h">
+      <Filter>dsl</Filter>
+    </ClInclude>
+    <ClInclude Include="mt19937.h">
+      <Filter>custom_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="log_bhv.h">
+      <Filter>behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="delay_seconds_bhv.h">
+      <Filter>behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="case_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="if_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="foreach_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="and_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="not_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="or_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="reference_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="sequence_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="template_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="timeout_cnd.h">
+      <Filter>conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="random_chance_cnd.h">
+      <Filter>conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="expression_cnd.h">
+      <Filter>conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="customlogic_node.h">
+      <Filter>custom_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_node.h">
+      <Filter>custom_logic</Filter>
+    </ClInclude>
+    <ClInclude Include="true_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+    <ClInclude Include="false_node.h">
+      <Filter>core_node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
+  </ItemGroup>
+</Project>
